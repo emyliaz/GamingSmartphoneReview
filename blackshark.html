@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+<!--table-->
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 30%;
+}
+
+td, th {
+  border: 3px solid black;
+  text-align: left;
+  padding: 3px;
+  border-color : white;  
+}
+
+tr:nth-child(even) {
+  background-color: pink;
+}
+
+}
+table#t1 {
+  width: 1000px;    
+  
+}
+
+</style>
+</head>
+<body style="background-color: #FFD12A;">
+<ul>
+  <li><a href="index.html" style="font-family : oswald;">HOME</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn" style="font-family : oswald;">SMARTPHONES</a>
+    <div class="dropdown-content">
+      <a href="asus.html" style="font-family : oswald;">ASUS ROG</a>
+      <a href="razer2.html" style="font-family : oswald;">RAZER</a>
+	  <a href="#" style="font-family : oswald">XIOAMI BLACKSHARK</a>
+      <a href="nubia.html" style="font-family : oswald;">NUBIA</a>
+    </div>
+	<li><a href="aboutmee.html" style="font-family : oswald;">ABOUT ME</a></li>
+	<li><a href="feedback.html" style="font-family : oswald;">FEEDBACK</a></li>
+  </li>
+</ul>
+
+
+<table id="t1">
+<tr>
+<td rowspan ="2">
+<img src="BS2.png" style="width:300px">
+</td>
+<td>
+  <h3 style="font-family : oswald; color:white;">XIOAMI BLACKSHARK 2 PRO SPECIFICATION</h3>
+  <table>
+  <tr>
+    <th style="font-family :  oswald;">Processor</th>
+	<td style="font-family :  oswald;">Qualcomm SDM855 SnapDragon 855 Plus (7mm)</td>
+	</tr>
+	<tr>
+    <th style="font-family :  oswald;">4G Network</th>
+	<td style="font-family :  oswald;">LTE band 1(2100), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 34(2000), 38(2600), 39(1900), 40(2300), 41(2500)</td>
+	</tr>
+	<tr>
+	<th style="font-family :  oswald;">RAM</th>
+    <td style="font-family : oswald;">8GB,12GB</td>
+	</tr>
+	<tr>
+	<th style="font-family :  oswald;">Storage</th>
+	<td style="font-family :  oswald;">128GB, 256GB</td>
+	</tr>
+	<tr>
+	<th style="font-family :  oswald;">Display Protection</th>
+	<td style="font-family :  oswald;">Corning Gorilla Glass 5</td>
+	</tr>
+	<tr>
+	<th style="font-family :  oswald;">Headphone Jack</th>
+	<td style="font-family :  oswald;">Yes</td>
+	</tr>
+	<tr>
+	<th style="font-family :  oswald;">USB Cable</th>
+	<td style="font-family :  oswald;">2.0, Type-C 1.0 reversible connector</td>
+	</tr>
+</td></tr></table>
+<tr>
+<td><center><video width="600" controls>
+  <source src="x.mp4" type="video/mp4">
+  <source src="x.ogg" type="video/ogg">
+</video></center></td></tr>
+</table>
+
+  
+</body>
+</html>
